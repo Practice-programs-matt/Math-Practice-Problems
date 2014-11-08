@@ -5,6 +5,7 @@ public class Math_practice_problems_main {
 	{
 		// github is awesome
 		System.out.println("test");
+		System.out.println("Alex");
 	}
 	
 }
