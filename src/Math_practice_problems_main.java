@@ -14,6 +14,9 @@ public class Math_practice_problems_main {
 		{
 		}
 		//random
+		
+		//teslkghfdkjghdfkjgbnsdf,gbjfdgbdkgbdfkjgbdlfgd
+		
 		if (problem_type != "addition" || "subtraction" || "multiplication" || "division")
 		{
 			System.out.println("Whoops! Please try again, you may have type something wrong or " + problem_type +" is not yet supported.");
