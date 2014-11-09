@@ -3,12 +3,15 @@ import java.util.Scanner;
 
 public class select_problems 
 {
+	
+	
 	public static void select()
 	{
 		String problem_type;
 		String number_of_problems;
 		String problem_verb = null;
 		int largest_number;
+		int terms;	
 		
 		Scanner scan = new Scanner(System.in);
 		do 
@@ -56,6 +59,10 @@ public class select_problems
 		
 		System.out.println("What are the largest numbers you want to " + problem_verb);
 		largest_number = scan.nextInt();
+		
+		System.out.println("How many terms do you want to multiply? You can choose up to 5.");
+		terms = scan.nextInt();
+		
 		
 		
 	
