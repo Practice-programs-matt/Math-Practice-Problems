@@ -10,15 +10,15 @@ public class Math_practice_problems_main {
 		Scanner scan = new Scanner(System.in);
 		String problem_type = scan.next();
 		
-		if (problem_type = "addition")
-		{
-			
-			
-		}
+	
 		
-		if (problem_type != "addition" || "subtraction" || "multiplication" || "division")
+		if (problem_type.equalsIgnoreCase("addition") || problem_type.equalsIgnoreCase("subtraction") ||problem_type.equalsIgnoreCase("division") || problem_type.equalsIgnoreCase("multiplication"))
 		{
-			System.out.println("Whoops! Please try again, you may have type something wrong or " + problem_type +" is not yet supported.");
+			System.out.println("Great, let's beigin practicing " + problem_type + "!" );
+		}
+		else 
+		{
+			System.out.println("Whoops! Please try again, you may have type something wrong or " + "'" + problem_type + "' " + "is not yet supported.");
 		}
 	}
 	
