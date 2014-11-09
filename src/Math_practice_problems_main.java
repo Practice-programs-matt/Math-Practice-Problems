@@ -12,9 +12,8 @@ public class Math_practice_problems_main {
 		
 		if (problem_type = "addition")
 		{
+			
 		}
-		//real comment
-		//second comment
 		
 		if (problem_type != "addition" || "subtraction" || "multiplication" || "division")
 		{
