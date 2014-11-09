@@ -69,7 +69,7 @@ public class select_problems
 		int i =0;  //first lcv
 		int k=0;// second lcv
 		int m=0; //to do math check
-		int a=1;
+		int a=0;
 		
 		Scanner scan2 = new Scanner(System.in);
 		
@@ -91,14 +91,23 @@ public class select_problems
 			
 			while (k<terms)
 			{
-				if (a==terms)
-				{
-					System.out.print(" =");
-					
-				}
-				else
+				
+				
+				
+				if (a<terms)
 				{
 					System.out.print((rand2.nextInt(largest_number)));	
+					
+					if (a == terms -1 )
+					{
+						System.out.print(" + ");
+						a++;
+					}
+					else 
+					{
+						System.out.print(" =");
+					}
+					
 				}
 					
 				k++;
