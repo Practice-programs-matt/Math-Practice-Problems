@@ -14,7 +14,7 @@ public class Math_practice_problems_main {
 		{
 			
 			
-			// this is a test
+			
 		}
 		
 		if (problem_type != "addition" || "subtraction" || "multiplication" || "division")
