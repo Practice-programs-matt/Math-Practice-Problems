@@ -12,8 +12,7 @@ public class Math_practice_problems_main {
 		
 		if (problem_type = "addition")
 		{
-			//add random comment
-			//ddgfdg
+			
 			
 		}
 		
