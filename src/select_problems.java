@@ -38,7 +38,6 @@ public class select_problems
 		
 		if (problem_type.equalsIgnoreCase("addition"))
 		{
-			
 			addition();
 		}
 		
@@ -79,46 +78,43 @@ public class select_problems
 		System.out.println("What are the largest numbers you want to " + problem_verb);
 		int largest_number = scan2.nextInt();
 		
-		System.out.println("How many terms do you want to multiply? You can choose up to 5");
-		int terms = scan2.nextInt();
+		System.out.println("How many terms do you want to " + problem_verb + "? You can choose up to 5");
+		int terms = scan2.nextInt();	
 		
-		System.out.print("What does ");	
-		
-		while (i<number_of_problems)
+		while (i < number_of_problems)
 		{
-		Random rand2 = new Random();
+			Random rand2 = new Random();
+			System.out.print("What does ");	
 			
-			
-			while (k<terms)
+			while (k <= terms)
 			{
-				
-				
-				
-				if (a<terms)
+				if (a < terms)
 				{
 					System.out.print((rand2.nextInt(largest_number)));	
 					
 					if (a == terms -1 )
 					{
-						System.out.print(" + ");
-						a++;
+						System.out.print(" = ");
 					}
 					else 
 					{
-						System.out.print(" =");
-					}
-					
+						System.out.print(" + ");
+					}	
 				}
-					
+				a++;	
 				k++;
 			}
 		k=0;
+		a=0;
 		
 		int answer =scan2.nextInt();
 		
 		i++;
 		}
 	}
+
+
+
 }
 		
 	
