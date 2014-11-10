@@ -90,7 +90,8 @@ public class select_problems
 			{
 				if (a < terms)
 				{
-					System.out.print((rand2.nextInt(largest_number)));	
+				
+					System.out.print(rand2.nextInt(largest_number));	
 					
 					if (a == terms -1 )
 					{
@@ -109,6 +110,10 @@ public class select_problems
 		
 		int answer =scan2.nextInt();
 		
+		
+		{
+			
+		}
 		i++;
 		}
 	}
